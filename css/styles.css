@@ -9,6 +9,31 @@
   --background-our-team-filter: #f5f4fa;
   --footer-mail-phone: rgba(255, 255, 255, 0.6);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 body {
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
@@ -21,12 +46,37 @@ body {
   text-decoration: none;
 }
 /*==================оформление шапки (навигация)==============*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  align-items: center;
+}
 .nav .logo {
   color: var(--logo-nav);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  margin-right: 93px;
+}
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 .menu .menu-link {
   color: var(--title-text-color);
@@ -34,6 +84,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.contact-mail {
+  margin-right: 50px;
 }
 .nav .menu-link:hover,
 .nav .menu-link:focus,
@@ -63,6 +116,8 @@ body {
   text-transform: uppercase;
 }
 .hero .hero-button {
+  border-radius: 4px;
+  border: 0;
   background-color: var(--accent-color);
   color: var(--title-text-color);
   font-family: inherit;
@@ -71,7 +126,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  border: 0;
+  padding: 10px 32px;
 }
 .hero .hero-button:hover,
 .hero .hero-button:focus {
@@ -150,6 +205,8 @@ body {
   letter-spacing: 1.62;
   text-align: center;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
   border: 0;
 }
 .filter-button:hover,
