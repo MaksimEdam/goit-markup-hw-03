@@ -1,0 +1,167 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.links {
+  text-decoration: none;
+}
+
+/*==================оформление шапки (навигация)==============*/
+.header {
+  background-color: #ffffff;
+}
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.menu .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.menu .link:hover,
+.menu .link:focus,
+.menu .link.current,
+.menu .mail-tel:hover,
+.menu .mail-tel:focus,
+.web {
+  color: var(--accent-color);
+}
+.menu .mail-tel {
+  color: var(--primary-text-color);
+}
+
+/*====================оформление секции героя ======================*/
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero .hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .hero-button {
+  background-color: var(--accent-color);
+  color: var (--title-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+  background-color: #188ce8;
+  color: #ffffff;
+}
+/*====================Конец оформления секции героя ======================*/
+
+/*============================описание секции=============================*/
+.section-title,
+.work-title,
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.section .text,
+.footer .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/*============================Конец описания секции=========================*/
+
+/*======================Секция чем мы занимаемся============================*/
+.work-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/*========================Конец секции чем мы занимаемся======================*/
+
+/*=======================секция наша команда==================================*/
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 500;
+}
+.team .text,
+.team-title {
+  font-size: 16px;
+  line-height: 1.18;
+}
+/*=======================Конец секция наша команда==================================*/
+
+/*==================================нижний колонтитул===============================*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.link-address,
+.footer-logo {
+  color: #ffffff;
+}
+.link {
+  color: rgba(255, 255, 255, 0.6);
+}
+/*==================================Конец "нижний колонтитул"=======================*/
+
+/*====================================Портфолио====================================*/
+.filter-button {
+  background-color: #f5f4fa;
+  color: var (--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.works-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.name-works {
+  font-size: 16px;
+  line-height: 1.87;
+}
+/*====================================Конец "Портфолио"====================================*/
