@@ -45,10 +45,15 @@ body {
 .link {
   text-decoration: none;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /*==================оформление шапки (навигация)==============*/
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -103,6 +108,7 @@ body {
   color: var(--primary-text-color);
 }
 /*====================оформление секции героя ======================*/
+
 .hero {
   background-color: var(--background-hero-footer);
   text-align: center;
@@ -114,6 +120,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 200px;
 }
 .hero .hero-button {
   border-radius: 4px;
@@ -127,6 +134,8 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   padding: 10px 32px;
+  margin-top: 30px;
+  margin-bottom: 200px;
 }
 .hero .hero-button:hover,
 .hero .hero-button:focus {
@@ -136,6 +145,16 @@ body {
 /*====================Конец оформления секции героя ======================*/
 
 /*============================описание секции=============================*/
+.section-description {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.list-description {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 120px) / 4);
+}
 .section-title,
 .work-title,
 .team-title {
@@ -144,6 +163,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .section .desc,
 .footer .desc {
@@ -153,10 +173,25 @@ body {
 /*============================Конец описания секции=========================*/
 
 /*======================Секция чем мы занимаемся============================*/
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding-bottom: 94px;
+}
+.work-list-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
 .work-title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+.work-additional {
+  margin-bottom: 50px;
 }
 /*========================Конец секции чем мы занимаемся======================*/
 
@@ -164,13 +199,29 @@ body {
 .team {
   background-color: var(--background-our-team-filter);
 }
+.work-list-team {
+  margin-bottom: 50px;
+}
 .team-title {
   font-weight: 500;
+  margin-top: 30px;
 }
+.our-team {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.list-our-team {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 120px) / 4);
+}
+
 .team .desc,
 .team-title {
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
 }
 /*=======================Конец секция наша команда==================================*/
 
@@ -178,11 +229,21 @@ body {
 .footer {
   background-color: var(--background-hero-footer);
 }
+.footer-container {
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-logo {
+  display: flex;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  margin-bottom: 20px;
+}
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-address,
 .footer-logo {
@@ -195,6 +256,15 @@ body {
 /*==================================Конец "нижний колонтитул"=======================*/
 
 /*====================================Портфолио====================================*/
+.filter-list {
+  display: flex;
+  margin-bottom: 54px;
+  margin-top: 100px;
+  justify-content: center;
+}
+.button-list:not(:last-child) {
+  margin-right: 30px;
+}
 .filter-button {
   background-color: var(--background-our-team-filter);
   color: var (--title-text-color);
@@ -214,15 +284,32 @@ body {
   background-color: var(--accent-color);
   color: var(--title-text-color-footer);
 }
+.our-works {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.our-works-list {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
 .works-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 30px;
+  margin-left: 24px;
 }
 .name-works {
   font-size: 16px;
   line-height: 1.87;
+  margin-left: 24px;
+}
+.indent {
+  padding-bottom: 94px;
 }
 /*====================================Конец "Портфолио"====================================*/
