@@ -237,8 +237,6 @@ body {
   background-color: var(--background-hero-footer);
 }
 .footer-container {
-  display: inline-block;
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 .footer-logo {
@@ -248,9 +246,12 @@ body {
   font-size: 26px;
   line-height: 1.2;
   margin-bottom: 20px;
+  display: inline-block;
+  margin-top: 60px;
 }
 .address-item:not(:last-child) {
   margin-bottom: 9px;
+  margin-bottom: 60;
 }
 .footer-address,
 .footer-logo {
