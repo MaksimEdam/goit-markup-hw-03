@@ -286,6 +286,7 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   border: 0;
+  letter-spacing: 0.06em;
 }
 .filter-button:hover,
 .filter-button:focus {
