@@ -253,7 +253,6 @@ body {
 }
 .address-item:not(:last-child) {
   margin-bottom: 9px;
-  margin-bottom: 60;
 }
 .footer-address,
 .footer-logo {
@@ -277,7 +276,7 @@ body {
 }
 .filter-button {
   background-color: var(--background-our-team-filter);
-  color: var (--title-text-color);
+  color: var(--title-text-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
