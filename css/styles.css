@@ -145,9 +145,6 @@ body {
 /*====================Конец оформления секции героя ======================*/
 
 /*============================описание секции=============================*/
-.section-desc {
-  padding-top: 30px;
-}
 .section-description {
   display: flex;
   padding-top: 94px;
@@ -165,7 +162,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.section .desc,
+.desc,
 .footer .desc {
   font-size: 14px;
   line-height: 1.71;
