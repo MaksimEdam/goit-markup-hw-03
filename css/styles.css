@@ -302,12 +302,12 @@ body {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
-  border-bottom: 1px solid #eeeeee;
   background: var(--title-text-color-footer);
 }
 .border {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .works-title {
   color: var(--title-text-color);
